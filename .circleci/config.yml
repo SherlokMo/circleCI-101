@@ -26,6 +26,7 @@ jobs:
       - run:
           name: "Say My Name"
           command: |
+            echo "my name is"
             echo $MY_NAME
 
 # Invoke jobs via workflows
