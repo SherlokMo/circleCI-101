@@ -48,3 +48,4 @@ workflows:
           requires:
             - print_hello
       - print_id
+      - failed_one
